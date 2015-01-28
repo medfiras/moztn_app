@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "name": "MozillaTN",
+  "description": "About Mozilla Tunisia Community's App. Get the latest news and keep yourself up to date. App is still in development.",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/logo.png",
+    "48": "/img/logo.png",
+    "60": "/img/logo.png",
+    "128": "/img/logo.png"
+  },
+  "developer": {
+    "name": "MedFiras",
+    "url": "https://github.com/medfiras"
+  },
+  "type": "privileged",
+  "permissions": {
+    "systemXHR": {
+      "description": "Required to download podcasts."
+    }
+  },
+  "csp" : "default-src *; script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline'",
+  "installs_allowed_from": [
+    "*"
+  ],
+  "locales": {
+    
+  },
+  "default_locale": "en"
+}
